@@ -1,4 +1,6 @@
 a = float(input())
 b = float(input())
-media = float((a + b) / 2)
+p1 = float(3.5)
+p2 = float(7.5)
+media = float(((a * p1) + (b * p2)) / 11)
 print("MEDIA = {:.5F}".format(media))
