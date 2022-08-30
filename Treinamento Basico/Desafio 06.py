@@ -1,0 +1,8 @@
+a = float(input())
+b = float(input())
+c = float(input())
+p1 = float(2)
+p2 = float(3)
+p3 = float(5)
+media = float(((a * p1) + (b * p2) + (c * p3)) / 10)
+print("MEDIA = {:.1F}".format(media))
