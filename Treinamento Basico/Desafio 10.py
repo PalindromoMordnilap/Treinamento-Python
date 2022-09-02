@@ -17,4 +17,4 @@ val2 = float(val2)
 
 total = (num1 * val1) + (num2 * val2)
 
-print("VALOR A PAGAR: R${:.2F}".format(total))
+print("VALOR A PAGAR: R$ {:.2F}".format(total))
